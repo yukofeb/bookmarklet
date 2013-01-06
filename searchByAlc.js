@@ -1,4 +1,4 @@
 javascript:
   var d = document;
-  var text = d.selection? d.selection.createRange().text: d.getSeletion();
-  var subw = window.open()('http://eow.alc.co.jp/'+text+'/UTF-8/?ref=sa').document;
+  var txt = d.selection? d.selection.createRange().txt: d.getSeletion();
+  var subw = window.open('http://eow.alc.co.jp/'+txt+'/UTF-8/?ref=sa').document;
